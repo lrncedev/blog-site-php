@@ -51,7 +51,7 @@ nav {
   font-weight: var(--poppins-medium);
   position: absolute;
   right: 0;
-  top: 0%;
+  top: 2%;
 }
 
 .post {
@@ -94,7 +94,78 @@ nav {
 
 }
 
+/*================= LOGIN PAGE CSS =============== */
+.login-container {
+  display: flex;
+  height: 80vh;
+  width: 90%;
+  margin-inline: auto;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.project-description h1 {
+  text-align: center;
+  font-size: 4.2em;
+  font-weight: var(--poppins-black);
+  text-decoration: underline;
+  margin-bottom: .3em;
+}
+
+.project-description p {
+  line-height: 1.5;
+  font-weight: var(--poppins-regular);
+  margin-bottom: .9em;
+  text-align: justify;
+}
+
+.project-cta {
+  background-color:steelblue;
+  padding: .5em;
+  color: white;
+  border-radius: 5px;
+}
+
+.project-login {
+  margin-top: 1.5em;
+  min-height: 10rem;
+  background-color: antiquewhite;
+}
+
+.project-login h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: .5em;
+  font-size: 200%;
+}
+
+#login-form {
+  padding: 1.5em 0;
+  width: 60%;
+  margin-inline: auto;
+  display: flex;
+  gap: .4em;
+  flex-direction: column;
+}
+
+#login-btn {
+  width: 20%;
+  align-self: flex-end;
+  padding: .4em;
+}
+
+.project-new {
+  font-size: .8rem;
+  font-weight: var(--poppins-medium);
+  opacity: .78;
+}
+
+.project-cta-sign {
+  color: rgb(135, 0, 0);
+  text-decoration: underline;
+}
+
+/*================= MEDIA RULES =============== */
 @media screen and (min-width: 45em) {
   .post-grid {
     grid-template-columns: repeat(3, 1fr);
